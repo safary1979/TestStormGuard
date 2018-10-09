@@ -1,0 +1,146 @@
+
+@media (max-width: 1220px)
+  .container
+    max-width: 992px
+  body
+    .header_bottom_wrapper_right_ul li
+      margin-left: 15px
+    .main_content_search_box_left
+      width: 46%
+    .main_content_offer_text
+      width: 60%
+    .main_content_ready_ul
+      flex-wrap: nowrap
+      li
+        padding: 0 5px
+    .bottom_content_wrapper_left
+      margin: 0
+    .footer_wrapper_right li
+      padding-left: 18px
+
+@media (max-width: 992px)
+  .container
+    max-width: 738px
+  body
+    .header_bottom_wrapper_right_btn
+      display: block
+    .header_bottom_wrapper_right_ul
+      display: none
+      &__active
+        display: block
+        position: absolute
+        right: 50px
+        padding: 0
+        li
+          margin-left: 0 !important
+          background-color: $color_black
+          padding: 0 20px
+          border-bottom: 1px solid $color_yellow
+          a
+            padding: 16px 0
+          ul
+            position: relative
+            display: block
+            margin: 0
+            padding: 0
+            li
+              border: none
+              border-top: 1px solid $color_yellow
+              a
+                padding: 4px 0
+    .main_content_search_box
+      display: block
+      padding: 0 40px
+      &_left
+        width: 100% !important
+        text-align: center
+      &_right
+        width: 100%
+        text-align: center
+
+    .main_content_offer_text
+      width: 80%
+    .main_content_ready_ul li a
+      padding: 10px 17px 4px
+      font-size: 18px
+    .bottom_content_wrapper
+      display: block
+      &_left
+        width: 100%
+        max-width: none
+        padding: 0 20px 15px 20px
+    .footer_wrapper
+      display: block
+      text-align: center
+      ul
+        display: inline-flex
+        padding: 0 0 7px 0
+
+@media (max-width: 768px)
+  body
+    .header_top_menu
+      &_ul
+        padding: 0
+        li
+          margin-left: 10px
+    .main_background_box
+      max-width: 588px
+      width: auto
+      &_text
+        margin: 0
+        padding: 30px 20px 29px
+    .main_content_offer_ul_col
+      &:nth-child(n)
+        padding: 0 15px 10px
+    .main_content_ready_ul
+      display: block
+      li
+        max-width: 384px
+        margin: 0 auto 10px
+    .main_content_news_content
+      display: block
+      li
+        max-width: 384px
+        margin: 0 auto 10px
+        width: 100%
+        padding: 0
+        &:first-child
+          padding: 0
+    .bottom_content_wrapper_right_photo_col , .bottom_content_wwa_photo_col
+      width: 25%
+      &:nth-child(n)
+        padding: 0 5px 10px
+
+@media (max-width: 576px)
+  body
+    .header_top_left
+      display: none
+    .header_top
+      display: inline-block
+      &_menu
+        text-align: center
+        &_ul
+          display: inline-flex
+          li
+            margin-left: 5px !important
+    .main_background_box_text
+      font-size: 28px
+    .main_content_search_box
+      padding: 0 20px !important
+      &_left
+        text-align: left !important
+        h3
+          font-size: 32px
+    .footer_wrapper ul
+      display: none !important
+
+
+
+
+
+
+
+
+
+
+
